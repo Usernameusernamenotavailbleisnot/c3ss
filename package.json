@@ -1,0 +1,30 @@
+{
+    "name": "c3ss",
+    "version": "1.0.0",
+    "description": "c3ss",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [
+      "c3ss",
+      "network",
+      "bot",
+      "daily",
+      "checkin"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^1.6.7",
+      "axios-retry": "^3.9.1",
+      "chalk": "^4.1.2",
+      "cfonts": "^3.2.0",
+      "figlet": "^1.6.0",
+      "fs-extra": "^11.2.0",
+      "https-proxy-agent": "^7.0.2",
+      "moment": "^2.30.1",
+      "winston": "^3.11.0",
+      "winston-daily-rotate-file": "^4.7.1"
+    }
+  }
