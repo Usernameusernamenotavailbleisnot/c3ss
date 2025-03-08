@@ -1,0 +1,23 @@
+{
+    "useProxy": true,
+    "delayBetweenAccounts": 10000,
+    "maxRetries": 5,
+    "retryDelay": 5000,
+    "timeoutMs": 30000,
+    "nextRunDelayHours": 25,
+    "logLevel": "info",
+    "logRetention": "7d",
+    "logDirectory": "logs",
+    "requestConfig": {
+      "baseUrl": "https://merklev2.cess.network",
+      "statusEndpoint": "/merkle/task/status",
+      "checkinEndpoint": "/merkle/task/checkin",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "origin": "https://cess.network",
+        "referer": "https://cess.network/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+      }
+    }
+  }
